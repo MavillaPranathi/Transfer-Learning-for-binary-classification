@@ -22,7 +22,7 @@ Plot the accuracy and loss for both training and validation.
 
 ## PROGRAM
 
-```
+```python
 # Import all the necessary files!
 import os
 import tensorflow as tf
@@ -251,7 +251,7 @@ epochs = range(len(acc))
 
 plt.plot(epochs, acc, 'r', label='Training accuracy')
 plt.plot(epochs, val_acc, 'b', label='Validation accuracy')
-plt.title('Name: Samyuktha S      Register Number: 212222240089    ')
+plt.title('Name: M.Pranathi      Register Number: 212222240064    ')
 plt.title('Training and validation accuracy')
 plt.legend(loc=0)
 plt.figure()
@@ -276,3 +276,4 @@ plt.show()
 
 ## RESULT
 Thus, transfer learning for classifying horses and human is implemented successfully
+
